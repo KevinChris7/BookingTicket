@@ -56,10 +56,9 @@ public class PHPtravelsLogin {
 		driver.findElementByName("phone").sendKeys("9092316449");
 		driver.findElementByName("address").sendKeys("17th street");
 		driver.findElementByXPath("//button[text()='CONFIRM THIS BOOKING']").click();
+		
 		String billingtitle = driver.getTitle();
 		System.out.println(billingtitle);
-
-
 	}
 
 }
