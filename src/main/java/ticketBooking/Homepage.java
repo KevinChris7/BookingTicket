@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
 public class Homepage {
 	@Test
 	public void loginpage() throws InterruptedException {
